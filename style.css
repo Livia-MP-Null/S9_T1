@@ -1,0 +1,139 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* --- Página Principal (index.html) --- */
+.box {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-index {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn-index:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* --- Exercício 2 (exercicio2.html) --- */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.btn1 {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+.btn1:hover {
+  background-color: #1d6fa5;
+}
+
+.btn2 {
+  background-color: #eeeeee;
+  color: #333333;
+  border: 1px solid #cccccc;
+}
+.btn2:hover {
+  color: #e74c3c;
+}
+
+.btn3 {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+}
+.btn3:hover {
+  transform: scale(1.1);
+}
+
+/* --- Desafio Profissional (desafio.html) --- */
+nav {
+  background-color: #222222;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00d4ff;
+}
+
+.conteudo-desafio {
+  padding: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.link {
+  color: #555555;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.link:hover {
+  color: #007bff;
+}
